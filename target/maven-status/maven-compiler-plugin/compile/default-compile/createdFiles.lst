@@ -1,0 +1,15 @@
+src\main\java\ua\lviv\iot\pharmacy\managers\PharmacyManager.class
+src\main\java\ua\lviv\iot\pharmacy\managers\PharmacyManager$4.class
+src\main\java\ua\lviv\iot\pharmacy\goods\VitaminType.class
+src\main\java\ua\lviv\iot\pharmacy\goods\GoodsOfPharmacy.class
+src\main\java\ua\lviv\iot\pharmacy\goods\MedicineType.class
+src\main\java\ua\lviv\iot\pharmacy\goods\Vitamins.class
+src\main\java\ua\lviv\iot\pharmacy\managers\PharmacyManager$1.class
+src\main\java\ua\lviv\iot\pharmacy\goods\Food.class
+src\main\java\ua\lviv\iot\pharmacy\goods\Nutrition.class
+src\main\java\ua\lviv\iot\pharmacy\goods\Quality.class
+src\main\java\ua\lviv\iot\pharmacy\managers\PharmacyManager$2.class
+src\main\java\ua\lviv\iot\pharmacy\goods\Medicine.class
+src\main\java\ua\lviv\iot\pharmacy\managers\Main.class
+src\main\java\ua\lviv\iot\pharmacy\managers\PharmacyManager$3.class
+src\main\java\ua\lviv\iot\pharmacy\goods\TypeOfGood.class

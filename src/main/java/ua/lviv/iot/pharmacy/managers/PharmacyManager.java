@@ -1,4 +1,4 @@
-package main.java.ua.lviv.iot.pharmacy.managers;
+package src.main.java.ua.lviv.iot.pharmacy.managers;
 
 import java.util.ArrayList;
 
@@ -6,11 +6,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import main.java.ua.lviv.iot.pharmacy.goods.GoodsOfPharmacy;
+import src.main.java.ua.lviv.iot.pharmacy.goods.GoodsOfPharmacy;
 
-import main.java.ua.lviv.iot.pharmacy.goods.Quality;
+import src.main.java.ua.lviv.iot.pharmacy.goods.Quality;
 
-import main.java.ua.lviv.iot.pharmacy.goods.TypeOfGood;
+import src.main.java.ua.lviv.iot.pharmacy.goods.TypeOfGood;
 
 public class PharmacyManager {
 

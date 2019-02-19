@@ -2,4 +2,4 @@
  * @author Oleh
  *
  */
-package main.java.ua.lviv.iot.pharmacy.managers;
+package src.main.java.ua.lviv.iot.pharmacy.managers;

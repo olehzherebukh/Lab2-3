@@ -1,4 +1,4 @@
-package main.java.ua.lviv.iot.pharmacy.goods;
+package src.main.java.ua.lviv.iot.pharmacy.goods;
 
 public class Medicine extends GoodsOfPharmacy {
 
