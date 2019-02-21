@@ -2,4 +2,4 @@
  * @author Oleh
  *
  */
-package src.main.java.ua.lviv.iot.pharmacy.goods;
+package ua.lviv.iot.pharmacy.goods;

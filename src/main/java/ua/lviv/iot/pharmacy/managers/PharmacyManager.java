@@ -1,4 +1,4 @@
-package src.main.java.ua.lviv.iot.pharmacy.managers;
+package ua.lviv.iot.pharmacy.managers;
 
 import java.util.ArrayList;
 
@@ -6,11 +6,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import src.main.java.ua.lviv.iot.pharmacy.goods.GoodsOfPharmacy;
+import ua.lviv.iot.pharmacy.goods.GoodsOfPharmacy;
 
-import src.main.java.ua.lviv.iot.pharmacy.goods.Quality;
+import ua.lviv.iot.pharmacy.goods.Quality;
 
-import src.main.java.ua.lviv.iot.pharmacy.goods.TypeOfGood;
+import ua.lviv.iot.pharmacy.goods.TypeOfGood;
 
 public class PharmacyManager {
 
@@ -40,13 +40,15 @@ public class PharmacyManager {
     }
     
     
-    public List<GoodsOfPharmacy> findByPrice() {
+    public List<GoodsOfPharmacy> findByPrice(double price) {
         add();
      final List<GoodsOfPharmacy> boofer = new ArrayList<GoodsOfPharmacy>();
-
+     
+    // price = 150.0;
+     
     for (final GoodsOfPharmacy temp : list) {
         if (temp.getTypeOfGood() == TypeOfGood.NUTRITION
-                && temp.getPriceOfGood() < 150.0) {
+                && temp.getPriceOfGood() < price) {
         boofer.add(temp);
         }
     }
@@ -136,6 +138,13 @@ public class PharmacyManager {
         }
         return list;
    }
+
+
+    public void addGood(GoodsOfPharmacy goods) {
+        
+        list.add(goods);
+        
+    }
  }
 
 
