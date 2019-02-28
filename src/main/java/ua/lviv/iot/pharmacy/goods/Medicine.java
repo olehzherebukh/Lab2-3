@@ -42,4 +42,18 @@ public class Medicine extends GoodsOfPharmacy {
     public void setTypeOfMedicine(final MedicineType typeOfMedicine) {
         this.typeOfMedicine = typeOfMedicine;
     }
+    
+    public String getHeaders() {
+        return super.getHeaders()
+                + "," + "amountOfMedicine"
+                + "," + "producingCountry"
+                + "," + "typeOfMedicine";
+    }
+    
+    public String toCSV() {
+        return super.toCSV()
+                + "," + amountOfMedicine
+                + "," + producingCountry
+                + "," + typeOfMedicine;
+    }
 }

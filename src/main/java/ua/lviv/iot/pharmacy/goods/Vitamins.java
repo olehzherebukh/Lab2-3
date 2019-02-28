@@ -43,4 +43,18 @@ public class Vitamins extends GoodsOfPharmacy {
     public void setTypeOfVitamin(final VitaminType typeOfVitamin) {
         this.typeOfVitamin = typeOfVitamin;
     }
+    
+    public String getHeaders() {
+        return super.getHeaders()
+                + "," + "amountOfPills"
+                + "," + "amountOfDifferentVitamins"
+                + "," + "typeOfVitamin";
+    }
+    
+    public String toCSV() {
+        return super.toCSV()
+                + "," + amountOfPills
+                + "," + amountOfDifferentVitamins
+                + "," + typeOfVitamin;
+    }
 }
