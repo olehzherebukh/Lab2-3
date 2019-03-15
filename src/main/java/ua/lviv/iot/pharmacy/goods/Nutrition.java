@@ -41,4 +41,18 @@ public class Nutrition extends GoodsOfPharmacy {
     public void setTasteOfFood(final String tasteOfFood) {
         this.tasteOfFood = tasteOfFood;
     }
+    
+    public String getHeaders() {
+        return super.getHeaders()
+                + "," + "typeOfFood"
+                + "," + "volumePerCan"
+                + "," + "tasteOfFood";
+    }
+    
+    public String toCSV() {
+        return super.toCSV()
+                + "," + typeOfFood
+                + "," + volumePerCan
+                + "," + tasteOfFood;
+    }
 }

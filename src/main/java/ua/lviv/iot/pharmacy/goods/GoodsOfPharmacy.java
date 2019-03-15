@@ -79,4 +79,20 @@ public class GoodsOfPharmacy {
                 + typeOfGood
                 + "]";
     }
+    
+    public String getHeaders() {
+        return "priceOfGood"
+                + "," + "nameOfGood"
+                + "," + "qualityOfGood"
+                + "," + "amountOfCustomersPerDay"
+                + "," + "typeOfGood";
+    }
+    
+    public String toCSV() {
+        return priceOfGood
+                + "," + nameOfGood
+                + "," + qualityOfGood
+                + "," + amountOfCustomersPerDay
+                + "," + typeOfGood;
+    }
 }
