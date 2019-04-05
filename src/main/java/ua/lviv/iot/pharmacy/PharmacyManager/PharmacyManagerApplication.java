@@ -23,7 +23,7 @@ public class PharmacyManagerApplication {
             repository.save(new GoodsOfPharmacy(80, "Duovit",
                     "Good", 13, "Vitamins"));
             repository.save(new GoodsOfPharmacy(110, "Strepsils",
-                    "Bad", 6, "Medicine"));
+                    "Bad", 9, "Medicine"));
             
             repository.findAll().forEach(student ->
             System.out.println(student));

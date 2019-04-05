@@ -41,44 +41,44 @@ public class GoodsOfPharmacy {
         this.id = id;
     }
 
-    public final double getPriceOfGood() {
+    public double getPriceOfGood() {
         return priceOfGood;
     }
 
-    public final void setPriceOfGood(final double priceOfGood) {
+    public void setPriceOfGood(final double priceOfGood) {
         this.priceOfGood = priceOfGood;
     }
 
-    public final String getNameOfGood() {
+    public String getNameOfGood() {
         return nameOfGood;
     }
 
-    public final void setNameOfGood(final String nameOfGood) {
+    public void setNameOfGood(final String nameOfGood) {
         this.nameOfGood = nameOfGood;
     }
 
-    public final String getQualityOfGood() {
+    public String getQualityOfGood() {
         return qualityOfGood;
     }
 
-    public final void setQualityOfGood(final String qualityOfGood) {
+    public void setQualityOfGood(final String qualityOfGood) {
         this.qualityOfGood = qualityOfGood;
     }
 
-    public final int getAmountOfCustomersPerDay() {
+    public int getAmountOfCustomersPerDay() {
         return amountOfCustomersPerDay;
     }
 
-    public final void setAmountOfCustomersPerDay(final
+    public void setAmountOfCustomersPerDay(final
             int amountOfCustomersPerDay) {
         this.amountOfCustomersPerDay = amountOfCustomersPerDay;
     }
 
-    public final String getTypeOfGood() {
+    public String getTypeOfGood() {
         return typeOfGood;
     }
 
-    public final void setTypeOfGood(final String typeOfGood) {
+    public void setTypeOfGood(final String typeOfGood) {
         this.typeOfGood = typeOfGood;
     }
 
